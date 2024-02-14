@@ -34,3 +34,7 @@ img[src$=".jpg"] {
   position: relative;
   flex-wrap: wrap;
 }
+
+html {
+  scroll-behavior: smooth;
+}
