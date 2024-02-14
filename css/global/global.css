@@ -24,6 +24,10 @@ img[src$=".jpg"] {
   border-radius: 5px;
 }
 
+img[src$=".png"] {
+  border-radius: 5px;
+}
+
 .intro {
   display: flex;
   flex-direction: column;

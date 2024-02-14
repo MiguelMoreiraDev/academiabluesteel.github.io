@@ -29,4 +29,196 @@ img[src="../img/academia-interna/academia-interna-bg.jpg"] {
   .intro {
     padding: 0px 20px;
   }
+
+  .intro a {
+    font-size: 1rem;
+  }
+}
+
+/* sobre */
+
+.sobre-unidade {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.sobre-unidade h2 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 400px) {
+  .sobre-unidade h2 {
+    font-size: 48px;
+  }
+
+  .sobre-unidade p {
+    font-size: 16px;
+  }
+}
+
+/* img's */
+
+.img-bg {
+  background: var(--cor-c11);
+  box-shadow: inset 0px -120px var(--cor-w);
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 40px;
+  padding-top: 120px;
+}
+
+@media (max-width: 600px) {
+  .imgs {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* unidades-vantagens */
+
+.unidade-vantagens {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.unidade-vantagens-lista {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.unidade-vantagens-lista li {
+  max-width: max-content;
+  text-transform: initial;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.unidade-vantagens-lista li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background: var(--cor-p1);
+  position: absolute;
+  left: -20px;
+}
+
+@media (max-width: 600px) {
+  .unidade-vantagens h2 {
+    font-size: 40px;
+  }
+
+  .unidade-vantagens-lista li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .unidade-vantagens h2 {
+    font-size: 36px;
+  }
+}
+
+/* lojas */
+
+.loja {
+  margin-bottom: 120px;
+}
+
+.loja h2 {
+  margin-bottom: 60px;
+}
+
+.loja-info {
+  background: var(--cor-w);
+  box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 32px 100px;
+  /* gap: 20px; */
+}
+
+.loja-info h3 {
+  display: flex;
+  align-items: start;
+  position: relative;
+}
+
+.loja-info :first-child::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../../img/icons/academia-interna/local.svg);
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: -40px;
+}
+
+.loja-info span {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.loja-info span::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../../img/icons/academia-interna/horario.svg);
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: -40px;
+}
+
+.sp {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .loja-info {
+    grid-template-columns: 1fr;
+  }
+
+  .sp {
+    grid-row: 2;
+    margin-bottom: 12px;
+  }
+
+  .loja-info span {
+    grid-row: 4;
+  }
+
+  .loja-info-lista {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .loja h2 {
+    font-size: 40px;
+  }
+
+  .loja-info {
+    font-size: 16px;
+    padding: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .loja h2 {
+    font-size: 36px;
+  }
 }
