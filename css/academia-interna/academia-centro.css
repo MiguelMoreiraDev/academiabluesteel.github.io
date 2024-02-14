@@ -10,7 +10,7 @@ a {
   z-index: 1;
 }
 
-img[src="./img/academia-interna/academia-interna-bg.jpg"] {
+img[src="../img/academia-interna/academia-interna-bg.jpg"] {
   position: absolute;
   right: 0;
   top: 0;
