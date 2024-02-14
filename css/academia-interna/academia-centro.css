@@ -1,0 +1,32 @@
+.intro {
+  background: var(--cor-c12);
+  height: 700px;
+  z-index: 1;
+}
+
+.intro h1,
+p,
+a {
+  z-index: 1;
+}
+
+img[src="./img/academia-interna/academia-interna-bg.jpg"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.intro p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .intro {
+    padding: 0px 20px;
+  }
+}

@@ -5,7 +5,6 @@
 
 .planos {
   padding-top: 120px;
-  padding: 60px;
 }
 
 .planos h2 {
@@ -19,6 +18,7 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0px 32px;
+  overflow-x: auto;
 }
 
 .planos-item {
@@ -28,6 +28,8 @@
   box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.1);
   display: grid;
   grid-template-columns: 1fr auto;
+  min-height: 280px;
+  flex: 1;
 }
 
 .planos-item h3 {
@@ -42,4 +44,10 @@
 
 .planos-item a {
   grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+  .planos h2 {
+    font-size: 48px;
+  }
 }

@@ -1,10 +1,10 @@
-/* global */
+/* Global */
 
 @import "./global/global.css";
 @import "./global/header.css";
 @import "./global/footer.css";
 
-/* home */
+/* Home */
 
 @import "./home/intro.css";
 @import "./home/sobre.css";
@@ -17,6 +17,10 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 
-/* componentes */
+/* Componentes */
 
 @import "./utilidades/componentes.css";
+
+/* Academia interna */
+
+@import "../css/academia-interna/academia-centro.css";

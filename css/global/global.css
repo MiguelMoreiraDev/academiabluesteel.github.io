@@ -23,3 +23,14 @@ img {
 img[src$=".jpg"] {
   border-radius: 5px;
 }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  position: relative;
+  flex-wrap: wrap;
+}

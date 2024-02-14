@@ -1,5 +1,6 @@
 .franquia {
-  padding: 120px 0px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .franquia a::after {
@@ -18,4 +19,20 @@
 .franquia h2,
 .franquia p {
   margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .franquia h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 400px) {
+  .franquia h2 {
+    font-size: 32px;
+  }
+
+  .franquia p {
+    font-size: 16px;
+  }
 }
