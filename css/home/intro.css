@@ -1,0 +1,49 @@
+.intro-bg {
+  background-color: var(--cor-c12);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  height: 900px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.intro h1,
+.intro span {
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.intro img[src="./img/home/background-intro.jpg"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  opacity: 0.2;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+
+/* media */
+
+@media (max-width: 600px) {
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    height: 600px;
+  }
+  .intro span[class="font-2-r-24-36 cor-c6"] {
+    font-size: 0.875rem;
+  }
+}

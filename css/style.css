@@ -1,0 +1,22 @@
+/* global */
+
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* home */
+
+@import "./home/intro.css";
+@import "./home/sobre.css";
+@import "./home/nossas-academias.css";
+@import "./home/nossos-planos.css";
+@import "./home/franqueado.css";
+
+/* Utilidades */
+
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+/* componentes */
+
+@import "./utilidades/componentes.css";

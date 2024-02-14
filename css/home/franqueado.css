@@ -1,0 +1,21 @@
+.franquia {
+  padding: 120px 0px;
+}
+
+.franquia a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: var(--cor-w);
+  transition: 0.3s;
+}
+
+.franquia a:hover::after {
+  width: 100%;
+}
+
+.franquia h2,
+.franquia p {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+.planos-bg {
+  background: var(--cor-c11);
+  box-shadow: inset 0px -120px var(--cor-w);
+}
+
+.planos {
+  padding-top: 120px;
+  padding: 60px;
+}
+
+.planos h2 {
+  margin-bottom: 80px;
+}
+
+.planos-conteudo {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 32px;
+}
+
+.planos-item {
+  background: var(--cor-w);
+  border-radius: 5px;
+  padding: 32px;
+  box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.planos-item h3 {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.planos-item p {
+  grid-column: 1 /-1;
+  margin-bottom: 16px;
+}
+
+.planos-item a {
+  grid-column: 1 / -1;
+}
