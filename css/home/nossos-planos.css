@@ -31,6 +31,7 @@
   min-height: 280px;
   min-width: 320px;
   flex: 1;
+  align-content: center;
 }
 
 .planos-item h3 {
@@ -50,5 +51,9 @@
 @media (max-width: 600px) {
   .planos h2 {
     font-size: 48px;
+  }
+
+  .planos-item {
+    margin-bottom: 32px;
   }
 }
