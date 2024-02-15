@@ -95,3 +95,9 @@
     padding-bottom: 32px;
   }
 }
+
+@media (max-width: 300px) {
+  .planos-interno h2 {
+    font-size: 48px;
+  }
+}
