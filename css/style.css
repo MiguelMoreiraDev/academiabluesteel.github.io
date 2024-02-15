@@ -24,3 +24,7 @@
 /* Academia interna */
 
 @import "../css/academia-interna/academia-centro.css";
+
+/* Planos */
+
+@import "../planos/planos.css";
