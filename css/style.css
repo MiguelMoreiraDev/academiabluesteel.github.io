@@ -33,3 +33,7 @@
 /* franquia */
 
 @import "../franqueado/franqueado.css";
+
+/* Termos e condições */
+
+@import "../css/termos/termos.css";
