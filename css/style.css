@@ -29,3 +29,7 @@
 
 @import "../planos/planos.css";
 @import "../planos/perguntas.css";
+
+/* franquia */
+
+@import "../franqueado/franqueado.css";

@@ -1,0 +1,72 @@
+.franqueado-bg {
+  background: var(--cor-c12);
+  box-shadow: inset 0px -280px var(--cor-w);
+}
+
+.franqueado {
+  padding: 120px 0px;
+  display: grid;
+  justify-content: center;
+}
+
+.franqueado h2 {
+  margin-bottom: 60px;
+}
+
+.form {
+  background: var(--cor-c1);
+  box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  padding: 60px;
+}
+.form label {
+  display: block;
+  font: 500 1rem/1.25 "Roboto", sans-serif;
+  max-width: fit-content;
+  margin-bottom: 8px;
+}
+
+.form-item input,
+.form-item textarea {
+  padding: 12px 8px;
+  background: var(--cor-c2);
+  border: 1px solid var(--cor-c3);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-item input:focus,
+.form-item textarea:focus {
+  border: 1px solid var(--cor-p3);
+  box-shadow: 0px 0px 0px 2px var(--cor-p1);
+  outline: none;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.form button {
+  padding: 8px 16px;
+}
+
+.form textarea {
+  font: 499 0.875rem/1.25 "Roboto", sans-serif;
+}
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+    gap: 20px 0px;
+  }
+
+  .franqueado h2 {
+    font-size: 40px;
+  }
+
+  .form .col-2 {
+    grid-column: 1;
+  }
+}
